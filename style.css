@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/Fundo.png);
+    background-position:top  center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121114; 
+}
+nav{
+    margin: 10px;
+    text-align: center;
+}
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+
+}
+header{
+    padding-top: 32px;
+    height: calc(120px + 32px);
+
+}
+header div{
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg,#9572FC 0%, #43e7ad 50.52%, #e2d45c 100%);
+
+    border-radius: 50%;
+    
+    display: flex;
+
+    padding: 4px;
+    transition: transform .3s;
+}
+header div img{
+    width: 100%;
+    border-radius: 50%;  
+}
+header:hover{
+    transform: scale(1.1);
+}
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+    margin-top: 32px;
+}
+section:hover{
+    transform: scale(1.1);
+}
+section {
+    color: white;
+    background-image: linear-gradient(90deg,#f32020 0%, #920b70 50.52%, #8d0b16 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+    
+
+}
+section li:hover{
+        transform: scale(1.5);
+}
+section h2 {
+    letter-spacing: -0.47px;
+}
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+section ul{
+    display:flex;
+    gap: 16px;
+    margin-top:24px ;
+    list-style: none;
+    flex-wrap: wrap;
+}
+section div{
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    
+}
+.film-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+.atores-list img {
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid #443E54;
+}
+.series-list img{
+    width: 90px;
+    border-radius: 8px;
+}
+.cantores-list img {
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid #443E54;
+}
+
+
